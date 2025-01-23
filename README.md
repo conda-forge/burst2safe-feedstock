@@ -148,7 +148,5 @@ Feedstock Maintainers
 =====================
 
 * [@forrestfwilliams](https://github.com/forrestfwilliams/)
-
-
-<!-- dummy commit to enable rerendering -->
+* [@jtherrmann](https://github.com/jtherrmann/)
 
