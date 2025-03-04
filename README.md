@@ -3,15 +3,15 @@ About burst2safe-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/burst2safe-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/forrestfwilliams/burst2safe
+Home: https://github.com/ASFHyP3/burst2safe
 
 Package license: BSD-2-Clause
 
 Summary: A package for converting ASF-derived Sentinel-1 burst SLC products to the ESA SAFE format.
 
-Development: https://github.com/forrestfwilliams/burst2safe
+Development: https://github.com/ASFHyP3/burst2safe
 
-Documentation: https://github.com/forrestfwilliams/burst2safe#burst2safe
+Documentation: https://github.com/ASFHyP3/burst2safe#burst2safe
 
 Current build status
 ====================
@@ -148,6 +148,7 @@ Feedstock Maintainers
 =====================
 
 * [@forrestfwilliams](https://github.com/forrestfwilliams/)
+* [@jhkennedy](https://github.com/jhkennedy/)
 * [@jtherrmann](https://github.com/jtherrmann/)
 * [@williamh890](https://github.com/williamh890/)
 
