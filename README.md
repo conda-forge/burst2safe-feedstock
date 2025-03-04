@@ -149,4 +149,5 @@ Feedstock Maintainers
 
 * [@forrestfwilliams](https://github.com/forrestfwilliams/)
 * [@jtherrmann](https://github.com/jtherrmann/)
+* [@williamh890](https://github.com/williamh890/)
 
