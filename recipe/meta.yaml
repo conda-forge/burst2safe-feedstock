@@ -12,9 +12,11 @@ source:
 build:
   entry_points:
     - burst2safe = burst2safe.burst2safe:main
+    - burst2stack = burst2safe.burst2stack:main
+    - local2safe = burst2safe.local2safe:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -39,6 +41,8 @@ test:
   commands:
     - pip check
     - burst2safe --help
+    - burst2stack --help
+    - local2safe --help
   requires:
     - pip
     - python {{ python_min }}
