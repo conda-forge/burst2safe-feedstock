@@ -1,5 +1,5 @@
 {% set name = "burst2safe" %}
-{% set version = "1.4.2" %}
+{% set version = "1.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/burst2safe-{{ version }}.tar.gz
-  sha256: feada541d8111abc021a8015ed3d525cb7cbfea8fc39119d38c89b508d18655a
+  sha256: d8ad15cb9b8f150be9b13a4952cbe2ee3bc9ed4a1d5162e77f1ccd249df1d45c
 
 build:
   entry_points:
@@ -16,7 +16,7 @@ build:
     - local2safe = burst2safe.local2safe:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
