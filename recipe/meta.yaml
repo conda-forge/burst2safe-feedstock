@@ -1,5 +1,6 @@
 {% set name = "burst2safe" %}
 {% set version = "2.0.0" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -27,13 +28,13 @@ requirements:
   run:
     - python >={{ python_min }}
     - gdal
-    - shapely >=2
-    - numpy <2.1.0
+    - shapely >=2.1.0
+    - numpy
     - lxml
     - asf_search
     - tifffile >=2022.04.22
     - dateparser !=1.1.0
-    - aiohttp
+    - aiohttp >=3.12.6
 
 test:
   imports:
